@@ -45,7 +45,7 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 #### **Option 1: Install via Snap Store (Recommended)**
 Install directly from the official Snapcraft Store via terminal:
 ```bash
-sudo snap install netdeck-manager
+sudo snap install netdeck-manager --classic
 ```
 Or search for **NetDeck Manager** (`netdeck-manager`) in Ubuntu Software Center / Snap Store GUI.
 
