@@ -26,7 +26,7 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.tar.gz` | Tarball Portable | Tarball Portable Archive |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.zip` | Zip Archive Portable | Zipped Portable Executable |
 
-🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/wifew-app/releases/latest)
+🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/netdeck-app/releases/latest)
 
 ---
 
