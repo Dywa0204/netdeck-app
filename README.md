@@ -10,20 +10,20 @@ NetDeck Manager is a modern, high-performance cross-platform desktop application
 
 ---
 
-## 💾 Download & Installation Options (v1.0.4)
+## 💾 Download & Installation Options (v1.0.5)
 
 Direct download links for pre-built binaries (Windows & Linux Portable + Installers):
 
 | Platform | Download Artifact Name | Type / Format | Notes |
 | :--- | :--- | :--- | :--- |
-| **🪟 Windows** | `netdeck-1.0.4-windows-x64-portable.exe` | Executable Portable | Standalone Portable (No installation required) |
-| **🪟 Windows** | `netdeck-1.0.4-windows-x64-portable.zip` | Zip Archive Portable | Zipped Standalone Portable |
-| **🪟 Windows** | `netdeck-1.0.4-windows-x64-setup.exe` | Setup Installer | Full NSIS Windows Setup Wizard |
-| **🪟 Windows** | `netdeck-1.0.4-windows-x64-setup.zip` | Zip Archive Installer | Zipped NSIS Windows Setup Wizard |
-| **🐧 Linux** | `netdeck-1.0.4-linux-x64-setup.deb` | Debian Package | Linux `.deb` Package (Ubuntu / Debian / Mint) |
-| **🐧 Linux** | `netdeck-1.0.4-linux-x64-setup.zip` | Zip Package | Zipped `.deb` Package |
-| **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.tar.gz` | Tarball Portable | Tarball Portable Archive |
-| **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.zip` | Zip Archive Portable | Zipped Portable Executable |
+| **🪟 Windows** | `netdeck-1.0.5-windows-x64-portable.exe` | Executable Portable | Standalone Portable (No installation required) |
+| **🪟 Windows** | `netdeck-1.0.5-windows-x64-portable.zip` | Zip Archive Portable | Zipped Standalone Portable |
+| **🪟 Windows** | `netdeck-1.0.5-windows-x64-setup.exe` | Setup Installer | Full NSIS Windows Setup Wizard |
+| **🪟 Windows** | `netdeck-1.0.5-windows-x64-setup.zip` | Zip Archive Installer | Zipped NSIS Windows Setup Wizard |
+| **🐧 Linux** | `netdeck-1.0.5-linux-x64-setup.deb` | Debian Package | Linux `.deb` Package (Ubuntu / Debian / Mint) |
+| **🐧 Linux** | `netdeck-1.0.5-linux-x64-setup.zip` | Zip Package | Zipped `.deb` Package |
+| **🐧 Linux** | `netdeck-1.0.5-linux-x64-portable.tar.gz` | Tarball Portable | Tarball Portable Archive |
+| **🐧 Linux** | `netdeck-1.0.5-linux-x64-portable.zip` | Zip Archive Portable | Zipped Portable Executable |
 
 🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/netdeck-app/releases/latest)
 
@@ -33,7 +33,7 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 
 ### 🪟 Windows
 
-1. Download **`netdeck-1.0.4-windows-x64-setup.exe`** (or `netdeck-1.0.4-windows-x64-portable.exe` if not prefer for installing app).
+1. Download **`netdeck-1.0.5-windows-x64-setup.exe`** (or `netdeck-1.0.5-windows-x64-portable.exe` if not prefer for installing app).
 2. Run the executable file directly or complete the Setup Wizard.
 3. *Note for WireGuard Control:* Ensure the official WireGuard for Windows client is installed if you wish to allow NetDeck Manager to control system WireGuard services.
 
@@ -42,17 +42,17 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 ### 🐧 Linux (Debian / Ubuntu / Mint / Fedora / Arch)
 
 #### **Option 1: Install via `.deb` Package**
-1. Download **`netdeck-1.0.4-linux-x64-setup.deb`**.
+1. Download **`netdeck-1.0.5-linux-x64-setup.deb`**.
 2. Install via terminal:
    ```bash
-   sudo dpkg -i netdeck-1.0.4-linux-x64-setup.deb
+   sudo dpkg -i netdeck-1.0.5-linux-x64-setup.deb
    ```
    ```bash
    sudo apt-get install -f # Fix dependencies if needed
    ```
 
 #### **Option 2: Run Standalone Portable**
-Extract `netdeck-1.0.4-linux-x64-portable.zip` or `.tar.gz` and execute `./netdeck-manager`.
+Extract `netdeck-1.0.5-linux-x64-portable.zip` or `.tar.gz` and execute `./netdeck-manager`.
 
 *Note for Linux VPN Control:*
 - WireGuard: Ensure `wireguard-tools` / `wg-quick` is installed (`sudo apt install wireguard`).
@@ -111,6 +111,12 @@ netdeck server list
 netdeck app list
 ```
 
+### 🔔 System Tray Integration & Background Daemon
+- **Seamless Background Operation**: Keep VPN tunnels, SSH sessions, and background automations active without cluttering the desktop or taskbar.
+- **Dynamic Visual Status**: The system tray icon automatically updates with visual badges to show active VPN connections and running background workflows.
+- **Quick-Access Context Menu**: Right-click the tray icon to view active tunnel names, disconnect VPNs on the fly, restore/focus the dashboard, or quit the application.
+- **Single-Click Window Toggle**: Left-click or double-click to instantly show or hide the NetDeck application window.
+
 ---
 
 ## 🔒 Security & Privacy
@@ -122,4 +128,4 @@ netdeck app list
 
 ## 📜 License & Support
 
-For issues, bug reports, or feature requests, please submit an issue on the [Public Issue Tracker](https://github.com/Dywa0204/wifew-app/issues).
+For issues, bug reports, or feature requests, please submit an issue on the [Public Issue Tracker](https://github.com/Dywa0204/netdeck-app/issues).
