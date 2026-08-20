@@ -2,7 +2,7 @@
 
 > **Universal Multi-Protocol VPN Tunnel Engine (WireGuard, OpenVPN, SSH, Custom), Server Fleet Management, SFTP File Explorer, Embedded Terminal & Automated Task Execution Workflows.**
 
-![Release Version](https://img.shields.io/github/v/release/Dywa0204/wifew-app?style=for-the-badge&color=blue)
+![Release Version](https://img.shields.io/github/v/release/Dywa0204/netdeck-app?style=for-the-badge&color=blue)
 ![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-brightgreen?style=for-the-badge)
 
 NetDeck Manager is a modern, high-performance cross-platform desktop application designed for DevOps engineers, system administrators, and developers. It serves as a unified command center to manage **Universal VPN Tunnels** (WireGuard, OpenVPN, SSH Tunneling, and Custom network interfaces), SSH server infrastructure, dual-pane SFTP file transfers, web application catalogs, and automated multi-step deployment pipelines.
