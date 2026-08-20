@@ -4,7 +4,7 @@
 
 ![Release Version](https://img.shields.io/github/v/release/Dywa0204/wifew-app?style=for-the-badge&color=blue)
 ![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-brightgreen?style=for-the-badge)
-[![Snap Store](https://snapcraft.io/netdeck-manager/badge.svg)](https://snapcraft.io/netdeck-manager)
+[![Snap Store](https://snapcraft.io/netdeck/badge.svg)](https://snapcraft.io/netdeck)
 
 NetDeck Manager is a modern, high-performance cross-platform desktop application designed for DevOps engineers, system administrators, and developers. It serves as a unified command center to manage **Universal VPN Tunnels** (WireGuard, OpenVPN, SSH Tunneling, and Custom network interfaces), SSH server infrastructure, dual-pane SFTP file transfers, web application catalogs, and automated multi-step deployment pipelines.
 
@@ -20,13 +20,13 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 | **🪟 Windows** | `netdeck-1.0.4-windows-x64-portable.zip` | Zip Archive Portable | Zipped Standalone Portable |
 | **🪟 Windows** | `netdeck-1.0.4-windows-x64-setup.exe` | Setup Installer | Full NSIS Windows Setup Wizard |
 | **🪟 Windows** | `netdeck-1.0.4-windows-x64-setup.zip` | Zip Archive Installer | Zipped NSIS Windows Setup Wizard |
-| **🐧 Linux** | `netdeck-manager` (Snap Store) | Snap Package | Official Snap Store Release |
+| **🐧 Linux** | `netdeck` (Snap Store) | Snap Package | Official Snap Store Release (`snap install --classic netdeck`) |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-setup.deb` | Debian Package | Linux `.deb` Package (Ubuntu / Debian / Mint) |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-setup.zip` | Zip Package | Zipped `.deb` Package |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.tar.gz` | Tarball Portable | Tarball Portable Archive |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.zip` | Zip Archive Portable | Zipped Portable Executable |
 
-🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/netdeck-app/releases/latest)
+🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/wifew-app/releases/latest)
 
 ---
 
@@ -45,15 +45,15 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 #### **Option 1: Install via Snap Store (Recommended)**
 Install directly from the official Snapcraft Store via terminal:
 ```bash
-sudo snap install netdeck-manager
+sudo snap install --classic netdeck
 ```
-Or search for **NetDeck Manager** (`netdeck-manager`) in Ubuntu Software Center / Snap Store GUI.
+Or search for **NetDeck Manager** (`netdeck`) in Ubuntu Software Center / Snap Store GUI.
 
-*Grant Network & VPN Permissions (run once after installation):*
+You can then run the GUI from your application launcher or use the CLI command directly in terminal:
 ```bash
-sudo snap connect netdeck-manager:network-control
-sudo snap connect netdeck-manager:network-observe
-sudo snap connect netdeck-manager:system-observe
+netdeck --help
+netdeck server show
+netdeck tunnel show
 ```
 
 #### **Option 2: Install via `.deb` Package**
