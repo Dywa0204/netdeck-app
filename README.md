@@ -25,7 +25,7 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.tar.gz` | Tarball Portable | Tarball Portable Archive |
 | **🐧 Linux** | `netdeck-1.0.4-linux-x64-portable.zip` | Zip Archive Portable | Zipped Portable Executable |
 
-🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/wifew-app/releases/latest)
+🔗 [View All Release Files on GitHub Releases](https://github.com/Dywa0204/netdeck-app/releases/latest)
 
 ---
 
@@ -39,7 +39,7 @@ Direct download links for pre-built binaries (Windows & Linux Portable + Install
 
 ---
 
-### 🐧 Linux (Snap Store / Debian / Ubuntu / Mint / Fedora / Arch)
+### 🐧 Linux (Debian / Ubuntu / Mint / Fedora / Arch)
 
 #### **Option 1: Install via `.deb` Package**
 1. Download **`netdeck-1.0.4-linux-x64-setup.deb`**.
@@ -93,10 +93,6 @@ Extract `netdeck-1.0.4-linux-x64-portable.zip` or `.tar.gz` and execute `./netde
 - **Multi-Step Automation Engine**: Build sequential deployment pipelines combining SSH commands, shell scripts, local tasks, file transfers, delay intervals, and HTTP health checks.
 - **Dynamic Variable Injection**: Inject environment variables (`{{HOST}}`, `{{PORT}}`, `{{APP_ENV}}`) at runtime or via CLI flags (`-e KEY=VALUE`).
 - **Live Execution Streaming**: Real-time ANSI colored terminal output logs with step-by-step progress tracking.
-
-### 📦 Comprehensive JSON Backup & Restore
-- **1-Click Export & Import**: Export all servers, tunnels, applications, workflows, snippets, and application settings into a standard `.json` backup file.
-- **Machine Migration**: Instantly restore your entire workspace setup across different Windows and Linux computers.
 
 ### 🚀 Powerful Headless CLI (`netdeck`)
 Run and manage NetDeck completely from your terminal or CI/CD scripts:
